@@ -1,0 +1,31 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Switch_case {
+    public static void main(String[] args) {
+        int choice;
+        System.out.println("-> PICK ONE\n 1.Hii Shubham\n 2.Hello Shubham\n 3.Hey Shubham");
+        Scanner sc = new Scanner(System.in);
+        choice = sc.nextInt();
+        switch  (choice)
+        {
+            case 1 :
+                System.out.println("Hii Shubham...");
+                break;
+
+            case 2 :
+                System.out.println("Hello Shubham...");
+                break;
+
+            case 3 :
+                System.out.println("Hey Shubham...");
+                break;
+
+            default:
+                System.out.println("Enter Valid Choice!");
+
+        }
+
+    }
+}
