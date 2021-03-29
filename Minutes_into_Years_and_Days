@@ -1,0 +1,26 @@
+package com.company;
+
+import java.util.Scanner;
+
+class min{
+   public void  converter() {
+       Scanner sc = new Scanner(System.in);
+       int n = sc.nextInt();
+       System.out.println("You Entered! " +n);
+
+       int years =  n/525600;
+       int remainingMinutes = n % 525600;
+       int days=    remainingMinutes/1440;
+       System.out.println("So,Approximately the " +n +" Minutes You Entered is " +years +" Years and " + days +" Days!");
+
+    }
+}
+
+public class min_into_years_and_days {
+    public static void main(String[] args) {
+     min input = new min();
+        System.out.println("Enter the minutes to convert!");
+     input.converter();
+
+    }
+}
