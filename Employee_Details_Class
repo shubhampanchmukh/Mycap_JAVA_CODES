@@ -1,0 +1,26 @@
+package com.company;
+
+class employee1{
+   employee1(){
+       System.out.println("\t\tEmployee Details :\n Employee1->\n1.Name: Shubham Panchmukh \n2.Year of Joining: 2023 \n3.Address: Anantnivas,lalbaug,Mumbai-12\n");
+   }
+}
+class employee2{
+    employee2(){
+        System.out.println("Employee2->\n1.Name: Pratik Darade \n2.Year of Joining: 2023 \n3.Address: Shantinivas,lalbaug,Mumbai-12\n");
+    }
+}
+class employee3{
+    employee3(){
+        System.out.println("Employee3->\n1.Name: Vignesh Sawant \n2.Year of Joining: 2023 \n3.Address: Shankarnivas,lalbaug,Mumbai-12");
+    }
+}
+
+public class Employee_details_class {
+    public static void main(String[] args) {
+      new employee1();
+      new employee2();
+      new employee3();
+
+    }
+}
